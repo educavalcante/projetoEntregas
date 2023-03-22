@@ -1,0 +1,37 @@
+Criar estrutura do projeto
+☐ INSTARLAR as dependencias de desenvolvimento e producao
+✔ 1 - yarn add typescript ts-node-dev @types/express @types/jsonwebtoken @types/bcrypt prisma -D @done(23-03-21 21:15)
+✔ 2 - yarn add express bcrypt jsonwebtoken @prisma/client (producao) @done(23-03-21 21:15)
+✔ 3 - yarn tsc --init (cirar a estutura) @done(23-03-21 21:15)
+✔ 4 - entrar no site do prisma IO  (docs/ Usage with TypeScript @done(23-03-21 21:15)
+    ✔ >>>> https://www.prisma.io/docs/concepts/overview/what-is-prisma#usage-with-typescript) @done(23-03-21 21:15)
+    ✔ pega o tsconfig do site para manter a mesma estrutura que o ts precisa para trabalhar com o prisma @done(23-03-21 21:15)
+
+
+Pro yarn funcionar Tente abrir o powershell como administrador e rodar:
+    ✔ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass @done(23-03-21 21:27)
+    Depois confirme a operação e quando terminar reinicie o terminal e tente novamente para ver. 
+    Caso não dê certo, tente utilizar o npm ao invés do yarn para ver se funciona.
+
+
+☐ CRIAR as tabelas
+deliveryman
+cliente
+deliveris
+
+☐ CADASTROS
+cliente
+deliveryman
+entregas
+
+☐ AUTENTICACAO
+☐ BUSCA
+entregas sem deliveryman
+entregas do cliente
+entregas do deliveryman
+
+☐ UPDATE
+atualizar as entregas
+
+
+
